@@ -1,0 +1,29 @@
+```{r}
+#| label: preparation chunks
+#| echo: false
+knitr::read_chunk("../R/preparations.R")
+```
+
+# Preparations
+
+Load the necessary R packages
+
+```{r}
+#| label: libraries
+#| results: markup
+#| eval: true
+#| echo: true
+#| cache: false
+#| message: false
+```
+
+Prepare directory structure
+
+```{r}
+#| label: prepare directories
+#| results: markup
+#| eval: true
+#| echo: true
+#| cache: false
+#| message: false
+```

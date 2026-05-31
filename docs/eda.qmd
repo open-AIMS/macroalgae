@@ -1,0 +1,71 @@
+```{r}
+#| label: eda chunks
+#| echo: false
+knitr::read_chunk("../R/eda.R")
+```
+
+# Exploratory data analysis
+
+::: {.panel-tabset}
+
+## Macroalgae
+
+![](../output/figures/eda_1_v3b.png){width="700px"}
+
+```{r}
+#| label: eda plot 1b function 
+#| results: markup
+#| eval: false
+#| echo: true
+#| cache: false
+```
+ 
+```{r}
+#| label: eda figure 1 v3b
+#| results: markup
+#| eval: false
+#| echo: true
+#| cache: false
+```
+
+## Macroalgae groups
+
+![](../output/figures/eda_2_v3b.png){width="700px"}
+
+```{r}
+#| label: eda plot 2b function 
+#| results: markup
+#| eval: false
+#| echo: true
+#| cache: false
+```
+
+```{r}
+#| label: eda figure 2 v3b
+#| results: markup
+#| eval: false
+#| echo: true
+#| cache: false
+```
+
+## Brown algae groups
+
+![](../output/figures/eda_3_v3b.png){width="700px"}
+
+```{r}
+#| label: eda plot 3b function 
+#| results: markup
+#| eval: false
+#| echo: true
+#| cache: false
+```
+
+```{r}
+#| label: eda figure 3 v3b
+#| results: markup
+#| eval: false
+#| echo: true
+#| cache: false
+```
+
+:::

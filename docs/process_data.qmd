@@ -1,0 +1,58 @@
+```{r}
+#| label: process data chunks
+#| echo: false
+knitr::read_chunk("../R/process_data.R")
+```
+
+# Process the data
+
+::: {.panel-tabset}
+
+## Macroalgae cover
+
+1. prepare factors
+
+```{r}
+#| label: process data v3b
+#| results: markup
+#| eval: true
+#| echo: true
+#| cache: false
+```
+
+2. filter to just the cases where k490 has been observed
+
+```{r}
+#| label: process mmp data v3b
+#| results: markup
+#| eval: false
+#| echo: true
+#| cache: false
+```
+
+## Macroalgae groups
+
+1. prepare factors and calculate relative (proportional) abundance (as
+   is required for Dirichlet)
+
+```{r}
+#| label: process ma data v3b
+#| results: markup
+#| eval: false
+#| echo: true
+#| cache: false
+```
+
+2. filter to just the cases where k490 has been observed
+
+```{r}
+#| label: process ma sites data v3b
+#| results: markup
+#| eval: false
+#| echo: true
+#| cache: false
+```
+
+## Brown algae groups
+
+:::
