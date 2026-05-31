@@ -1,0 +1,31 @@
+```{r}
+#| label: read data chunks
+#| echo: false
+knitr::read_chunk("../R/read_data.R")
+```
+
+## Load the data
+
+
+::: {.panel-tabset}
+
+### Pre-joined data (Version 3)
+
+Angus provided reworked data that has already been joined together.
+
+```{r}
+#| label: load dirichlet_dat
+#| results: markup
+#| eval: true
+#| echo: true
+#| cache: false
+```
+
+```{r}
+#| label: glimpse dirichlet_dat
+glimpse(dirichlet_dat)
+```
+
+
+:::
+
