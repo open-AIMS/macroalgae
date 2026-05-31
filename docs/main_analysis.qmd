@@ -122,3 +122,5 @@ The aims of these analyses are to:
 {{< include "eda.qmd" >}}
 
 {{< include "fit_ma_models.qmd" >}}
+
+{{< include "fit_ma_group_models.qmd" >}}

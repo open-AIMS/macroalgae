@@ -1,0 +1,19 @@
+```{r}
+#| label: fit ma group models chunks
+#| echo: false
+knitr::read_chunk("../R/fit_models_ma_group.R")
+```
+
+# Macroalgae group analyses
+
+::: {.panel-tabset}
+
+## Prepare data 
+
+```{r}
+#| label: fit model 3 data prep v3b
+#| results: markup
+#| eval: false
+#| echo: true
+#| cache: false
+```

@@ -21,16 +21,16 @@ source("preparations.R")    # assign global vars (paths)
 source("read_data.R")       # load data
 source("process_data.R")    # process data
 source("eda.R")             # EDA
-## source("fit_models.R")      # fit models
-## source("fit_models_ma_group.R")      # fit models
+source("fit_models.R")      # fit models
+source("fit_models_ma_group.R")      # fit models
 ## source("fit_models_browns.R")      # fit models
 
 list(
   preparations(),
   read_data(),
   process_data(),
-  eda()
-  ## fit_models()
-  ## fit_models_ma_group()
+  eda(),
+  fit_models(),
+  fit_models_ma_group()
   ## ## fit_models_browns()
 )
