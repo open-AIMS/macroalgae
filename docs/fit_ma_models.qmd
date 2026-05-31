@@ -1,0 +1,26 @@
+```{r}
+#| label: fit ma models chunks
+#| echo: false
+knitr::read_chunk("../R/fit_models.R")
+```
+
+# Overall macroalgae analyses
+
+::: {.panel-tabset}
+
+## Define formula
+
+```{r}
+#| label: fit model 1 priors v3b
+#| results: markup
+#| eval: false
+#| echo: true
+#| cache: false
+```
+
+
+## Define priors
+
+## Fit model
+
+:::
